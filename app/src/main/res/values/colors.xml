@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color_blue">#23437E</color>
     <color name="rounded_border_grey">#636c70</color>
+    <color name="reading_text_color">#989898</color>
 </resources>

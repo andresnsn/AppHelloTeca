@@ -12,12 +12,14 @@
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginBottom="470dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hellotezca_logo" />
+        app:srcCompat="@drawable/helloteca_logo"
+
+        />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -36,11 +38,11 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LOGIN"
+            android:text="@string/login_title"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@android:color/darker_gray"
             android:textStyle="bold"
-
+            android:layout_marginBottom="15dp"
             />
 
         <EditText
@@ -50,9 +52,14 @@
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
             android:layout_marginBottom="15dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
             android:background="@drawable/rounded_border_grey"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -60,9 +67,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
+            android:layout_marginBottom="15dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
             android:background="@drawable/rounded_border_grey"
             android:ems="10"
             android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="16dp"
             />
 
         <RadioButton
@@ -70,15 +82,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:text="Lembrar senha" />
+            android:text="@string/password_radio_button" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:text="ENTRAR" />
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:backgroundTint="@color/background_color_blue"
+            android:text="ENTRAR"
+            android:textColor="@color/white"
+            />
 
     </LinearLayout>
 
