@@ -8,18 +8,15 @@
     android:background="@color/background_color_blue"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Main Activity"
-        android:textColor="@color/white"
-        android:textSize="24dp"
-        >
-
-    </TextView>
+        app:srcCompat="@drawable/helloteca_logo"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

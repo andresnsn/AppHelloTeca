@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/gatilhos_mentais_capa">
-
     </ImageView>
 
     <Switch

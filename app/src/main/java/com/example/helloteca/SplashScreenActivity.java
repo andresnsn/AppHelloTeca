@@ -1,20 +1,18 @@
 package com.example.helloteca;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
-import android.widget.CompoundButton;
-import android.widget.Switch;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.splash_screen);
+        setContentView(R.layout.splash_screen);
+        showLoginScreen();
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -25,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showLoginScreen() {
-        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
         startActivity(intent);
         finish();
     }
+
 
 }
