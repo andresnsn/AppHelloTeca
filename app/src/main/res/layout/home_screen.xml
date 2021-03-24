@@ -43,20 +43,37 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStartwar_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3">
 
-        <ImageView
-            android:layout_width="204dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/gatilhos_mentais_capa"></ImageView>
+        <com.example.helloteca.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/box1"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/gatilhos_mentais_capa"
+                android:background="@color/background_color_blue"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/este_nao_e_mais_um_livro_de_dieta_capa">
+            app:srcCompat="@drawable/este_nao_e_mais_um_livro_de_dieta_capa"
+            >
         </ImageView>
+
     </LinearLayout>
 
     <LinearLayout
@@ -103,6 +120,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/extraordinario_capa"></ImageView>
+
+
     </LinearLayout>
 
 
