@@ -13,6 +13,8 @@ public class ReadingScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.reading_screen);
+
+
         View view = findViewById(R.id.full_background);
         Switch switchButton = findViewById(R.id.switch_button);
 

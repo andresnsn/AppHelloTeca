@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    style="@style/Theme.HelloTeca"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:background="@color/background_color_blue"
-    tools:context=".MainActivity">
+    tools:context=".HomeScreenActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="620dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/helloteca_logo"
-        />
+        android:layout_width="150dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/helloteca_logo" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -30,29 +23,22 @@
         android:text="EM ALTA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199" />
+        android:layout_gravity="center" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStartwar_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3">
-
+        android:layout_marginTop="20dp"
+        >
         <com.example.helloteca.SquareButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/box1"
                 android:layout_width="199dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -63,16 +49,76 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/gatilhos_mentais_capa"
                 android:background="@color/background_color_blue"
+                android:onClick="openBook"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
+        <com.example.helloteca.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/barack_obama_capa"
+                android:background="@color/background_color_blue"
+                android:onClick="openBook"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
 
-        <ImageView
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <com.example.helloteca.SquareButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/este_nao_e_mais_um_livro_de_dieta_capa"
-            >
-        </ImageView>
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/este_nao_e_mais_um_livro_de_dieta_capa"
+                android:background="@color/background_color_blue"
+                android:onClick="openBook"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
+        <com.example.helloteca.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/o_menestrel"
+                android:background="@color/background_color_blue"
+                android:onClick="openBook"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
 
     </LinearLayout>
 
@@ -80,49 +126,47 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStartwar_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6">
+        android:layout_marginTop="20dp"
+        >
+        <com.example.helloteca.SquareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        <ImageView
+            <ImageButton
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/extraordinario_capa"
+                android:background="@color/background_color_blue"
+                android:onClick="openBook"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
+        <com.example.helloteca.SquareButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/os_donos_do_mundo">
-        </ImageView>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/barack_obama_capa">
-        </ImageView>
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/os_donos_do_mundo"
+                android:background="@color/background_color_blue"
+                android:onClick="openBook"
+                ></ImageButton>
+
+        </com.example.helloteca.SquareButton>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9">
-
-        <ImageView
-            android:layout_width="208dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/dragon_ball_capa"></ImageView>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/extraordinario_capa"></ImageView>
-
-
-    </LinearLayout>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,11 +1,16 @@
 <resources>
     <string name="app_name">HelloTeca</string>
-
     <string name="login_title">LOGIN</string>
     <string name="password_radio_button">Lembrar senha</string>
-    <string name="gatilhos_mentais_title">Gatilhos Mentais</string>
-    <string name="gatilhos_mentais_text">
 
+    <string name="gatilhos_mentais_title">Gatilhos Mentais</string>
+    <string name="barack_obama_title">Barack Obama</string>
+    <string name="este_nao_e_mais_um_livro_de_dieta_title">Este não é mais um livro de dieta</string>
+    <string name="o_menestrel_title">O Menestrel</string>
+    <string name="extraordinario_title">Extraordinário</string>
+    <string name="os_donos_do_mundo_title">Os donos do mundo</string>
+
+    <string name="gatilhos_mentais_text">
 
 Essa técnica é altamente eficaz no que diz respeito à tomada de decisões.
 
@@ -144,5 +149,103 @@ Como aplicar o gatilho mental do “porquê”?
 Prepare um conteúdo que destaque o porquê a sua marca é importante e como ela pode ajudar em determinada situação.
     </string>
 
+    <string name="barack_obama_text">
+        At the end of my presidency, Michelle and I boarded Air Force One for the last time and traveled west for a long-deferred break. The mood on the plane was bittersweet. Both of us were drained, physically and emotionally, not only by the labors of the previous eight years but by the unexpected results of an election in which someone diametrically opposed to everything we stood for had been chosen as my successor. Still, having run our leg of the race to completion, we took satisfaction in knowing that we’d done our very best—and that however much I’d fallen short as president, whatever projects I’d hoped but failed to accomplish, the country was in better shape than it had been when I’d started.
 
+
+For a month, Michelle and I slept late, ate leisurely dinners, went for long walks, swam in the ocean, took stock, replenished our friendship, rediscovered our love, and planned for a less eventful but hopefully no less satisfying second act. For me, that included writing my presidential memoirs. And by the time I sat down with a pen and yellow pad (I still like writing things out in longhand, finding that a computer gives even my roughest drafts too smooth a gloss and lends half-baked thoughts the mask of tidiness), I had a clear outline of a book in my head.
+
+Barack Obama`s book, A Promised Land.
+This post was excerpted from Obama’s forthcoming book.
+First and foremost, I hoped to give an honest rendering of my time in office—not just a historical record of key events that happened on my watch and important figures with whom I interacted but also an account of some of the political, economic, and cultural crosscurrents that helped determine the challenges my administration faced and the choices my team and I made in response. Where possible, I wanted to offer readers a sense of what it’s like to be the president of the United States; I wanted to pull the curtain back a bit and remind people that, for all its power and pomp, the presidency is still just a job and our federal government is a human enterprise like any other, and the men and women who work in the White House experience the same daily mix of satisfaction, disappointment, office friction, screwups, and small triumphs as the rest of their fellow citizens. Finally, I wanted to tell a more personal story that might inspire young people considering a life of public service: how my career in politics really started with a search for a place to fit in, a way to explain the different strands of my mixed-up heritage, and how it was only by hitching my wagon to something larger than myself that I was ultimately able to locate a community and purpose for my life.
+
+
+I figured I could do all that in maybe 500 pages. I expected to be done in a year.
+
+It’s fair to say that the writing process didn’t go exactly as I’d planned. Despite my best intentions, the book kept growing in length and scope—the reason I eventually decided to break it into two volumes. I’m painfully aware that a more gifted writer could have found a way to tell the same story with greater brevity (after all, my home office in the White House sat right next to the Lincoln Bedroom, where a signed copy of the 272-word Gettysburg Address rests inside a glass case). But each time that I sat down to write—whether it was to describe the early phases of my campaign, or my administration’s handling of the financial crisis, or negotiations with the Russians on nuclear-arms control, or the forces that led to the Arab Spring—I found my mind resisting a simple linear narrative.
+
+Often, I felt obliged to provide context for the decisions I and others had made, and I didn’t want to relegate that background to a footnote or an endnote (I hate footnotes and endnotes). I discovered that I couldn’t always explain my motivations just by referencing reams of economic data or recalling an exhaustive Oval Office briefing, for they’d been shaped by a conversation I’d had with a stranger on the campaign trail, a visit to a military hospital, or a childhood lesson I’d received years earlier from my mother. Repeatedly my memories would toss up seemingly incidental details (trying to find a discreet location to grab an evening smoke; my staff and I having a laugh while playing cards aboard Air Force One) that captured, in a way the public record never could, my lived experience during the eight years I spent in the White House.
+
+    </string>
+
+    <string name="este_nao_e_mais_um_livro_de_dieta_text"></string>s
+
+    <string name="extraordinario_text">
+        Na semana que vem vou começar o quinto ano. Como nunca estudei em um colégio de
+verdade, meio que estou total e completamente apavorado. As pessoas acham que não fui à
+escola por causa da minha aparência, mas não é isso. É por causa de todas as vezes em que fui
+operado. Vinte e sete desde que nasci. As mais importantes aconteceram antes de eu ter quatro
+anos, por isso não lembro. Mas desde então passei por duas ou três cirurgias a cada ano
+(algumas grandes, outras menores), e, como sou pequeno para a minha idade e tenho outros
+problemas misteriosos que os médicos nunca conseguiram entender, eu ficava doente o tempo
+todo. Foi por isso que meus pais decidiram que seria melhor eu não ir para a escola. Mas estou
+bem mais forte agora. Minha última cirurgia foi oito meses atrás e provavelmente não
+precisarei de outra pelos próximos anos.
+A mamãe me dá aulas em casa. Ela era ilustradora de livros infantis e desenha fadas e sereias
+lindas. Uma vez tentou desenhar um Darth Vader para mim, mas ficou parecendo um robô
+estranho com formato de cogumelo. Há muito tempo não a vejo desenhar nada. Acho que está
+ocupada demais cuidando de mim e da Via.
+Não posso dizer que eu sempre quis ir à escola, porque isso não seria exatamente verdade. Eu
+queria ir, mas só se pudesse ser como todas as outras crianças. Ter muitos amigos, sair depois
+da aula, coisas desse tipo.
+Tenho alguns amigos de verdade agora. O Christopher é meu melhor amigo, e depois vêm o
+Zachary e o Alex. A gente se conhece desde bebês. E, como eles já me conheceram como sou,
+estão acostumados. Quando a gente era pequeno, brincava junto o tempo todo, mas depois o
+Christopher se mudou para Bridgeport, em Connecticut. Fica a mais de uma hora de onde eu
+moro, em North River Heights, na ponta de cima de Manhattan. E o Zachary e o Alex
+começaram a ir à escola. É estranho: embora o Christopher tenha se mudado para longe, ainda
+o vejo mais do que vejo o Zachary e o Alex. Eles têm um monte de amigos novos agora. Mas
+quando nos esbarramos na rua eles ainda são legais comigo e sempre dizem oi.
+Tenho outros amigos também, mas não tão legais quanto o Christopher, o Zach e o Alex.
+Por exemplo, o Zach e o Alex sempre me convidavam para as festas de aniversário deles
+quando a gente era pequeno, mas o Joel, o Eamonn e o Gabe nunca fizeram isso. A Emma me
+convidou uma vez, mas não a vejo há muito tempo. E, é claro, sempre vou nas festas do
+Christopher. Talvez eu esteja exagerando com esse negócio de festas de aniversário.
+Como eu nasci
+Gosto quando a mamãe conta essa história porque ela me faz rir muito. Não é engraçada como
+uma piada, mas, quando a mamãe conta, a Via e eu simplesmente caímos na gargalhada.
+Então, quando eu estava na barriga da minha mãe, ninguém fazia a menor ideia de que eu
+seria desse jeito. A Via tinha nascido quatro anos antes e tudo tinha sido tão “mamão com
+açúcar” (como a mamãe diz), que não havia razão para fazer exames especiais. Uns dois meses
+antes de eu nascer, os médicos perceberam que havia algo errado com meu rosto, mas não
+acharam que fosse muito ruim. Disseram para os meus pais que eu tinha lábio leporino e
+algumas outras coisas. Chamaram de “pequenas anomalias”.
+Duas enfermeiras estavam na sala de parto na noite em que nasci. Uma era muito doce e
+boazinha. A outra, segundo a mamãe, não parecia ser nem um pouco assim. Tinha braços
+muito grandes (aqui começa a parte engraçada) e ficava soltando puns. Tipo, ela dava cubos de
+gelo para a minha mãe e soltava um pum. Media a pressão e soltava outro pum. A mamãe diz
+que era inacreditável, porque a enfermeira nem ficava sem graça! Além disso, o obstetra dela
+não estava de plantão naquela noite, então ela acabou nas mãos de um residente mal-humorado
+que ela e o papai apelidaram de Doogie, por causa de um velho programa de TV ou algo do
+tipo (não chamavam o médico assim na frente dele). Mas a mamãe diz que, embora todo
+mundo na sala estivesse meio irritado, papai a fez rir a noite toda.
+Quando saí da barriga da minha mãe, ela disse que todo mundo no quarto ficou muito
+quieto. Ela nem conseguiu me ver, porque a enfermeira boazinha saiu correndo comigo. O
+papai foi atrás com tanta pressa que deixou cair a filmadora, que ficou em pedacinhos. Então a
+mamãe ficou muito chateada e tentou levantar para ver aonde eles tinham ido, mas a
+enfermeira que soltava pum a segurou na cama com seus braços grandões. As duas estavam
+quase brigando, porque minha mãe estava histérica e a enfermeira que soltava pum não parava
+de gritar para ela ficar calma, e então as duas começaram a gritar chamando o médico. Mas,
+adivinhe só? Ele tinha desmaiado! Estava caído no chão! Quando a enfermeira do pum o viu
+desmaiado, começou a cutucá-lo com o pé, tentando acordá-lo, sem parar de gritar: “Que tipo
+de médico você é? Que tipo de médico você é? Acorde! Acorde!”
+Aí, de repente, ela soltou o maior, mais barulhento e mais fedorento pum da história dos
+puns. A mamãe acha que, na verdade, foi o pum que acordou o médico. Quando ela conta essa
+história, representa todos os papéis — faz até os barulhos dos puns — e é tão, tão, tão
+engraçado!
+Minha mãe diz que a enfermeira que soltava pum era, na verdade, uma moça muito legal.
+Ficou com ela o tempo todo. Não saiu do seu lado nem depois que o papai voltou e os médicos
+contaram para eles da gravidade da minha doença. Mamãe se lembra perfeitamente das
+palavras que a enfermeira sussurrou em seu ouvido quando o médico disse que era provável que
+eu não sobrevivesse àquela noite.
+“Todo o que é nascido de Deus vence o mundo.”
+No dia seguinte, depois que eu tinha sobrevivido àquela noite, foi a mesma enfermeira que
+segurou a mão da minha mãe quando a levaram para me ver pela primeira vez.
+A mamãe fala que, àquela altura, haviam lhe falado tudo sobre mim. Ela já tinha se
+preparado para me ver. Mas diz que, quando olhou para o meu rosto minúsculo e deformado
+pela primeira vez, só o que notou foi como meus olhos eram bonitos.
+Aliás, a mamãe é linda. O papai é bonito também. A Via é bem bonita. Caso você esteja se
+perguntando.
+
+    </string>
 </resources>
