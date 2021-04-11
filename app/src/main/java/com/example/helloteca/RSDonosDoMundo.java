@@ -1,22 +1,23 @@
 package com.example.helloteca;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 
-public class ReadingScreenActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class RSDonosDoMundo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.reading_screen);
+        this.setContentView(R.layout.rs_os_donos_do_mundo);
 
 
         View view = findViewById(R.id.full_background);
         Switch switchButton = findViewById(R.id.switch_button);
+        switchButton.setChecked(false);
 
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -32,5 +33,8 @@ public class ReadingScreenActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
+
 }

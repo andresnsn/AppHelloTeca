@@ -20,7 +20,12 @@
         <activity android:name=".LoginActivity" android:exported="true"></activity>
         <activity android:name=".SplashScreenActivity" android:exported="true"></activity>
         <activity android:name=".HomeScreenActivity" android:exported="true"></activity>
-        <activity android:name=".ReadingScreenActivity" android:exported="true"></activity>
+        <activity android:name=".RSGatilhosMentais" android:exported="true"></activity>
+        <activity android:name=".RSBarackObama" android:exported="true"></activity>
+        <activity android:name=".RSExtraordinario" android:exported="true"></activity>
+        <activity android:name=".RSEsteNaoEMaisUmLivroDeDieta" android:exported="true"></activity>
+        <activity android:name=".RSOMenestrel" android:exported="true"></activity>
+        <activity android:name=".RSDonosDoMundo" android:exported="true"></activity>
     </application>
 
 </manifest>

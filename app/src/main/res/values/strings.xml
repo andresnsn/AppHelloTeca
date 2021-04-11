@@ -2,7 +2,6 @@
     <string name="app_name">HelloTeca</string>
     <string name="login_title">LOGIN</string>
     <string name="password_radio_button">Lembrar senha</string>
-
     <string name="gatilhos_mentais_title">Gatilhos Mentais</string>
     <string name="barack_obama_title">Barack Obama</string>
     <string name="este_nao_e_mais_um_livro_de_dieta_title">Este não é mais um livro de dieta</string>
@@ -168,7 +167,6 @@ Often, I felt obliged to provide context for the decisions I and others had made
 
     </string>
 
-    <string name="este_nao_e_mais_um_livro_de_dieta_text"></string>s
 
     <string name="extraordinario_text">
         Na semana que vem vou começar o quinto ano. Como nunca estudei em um colégio de
@@ -246,6 +244,43 @@ preparado para me ver. Mas diz que, quando olhou para o meu rosto minúsculo e d
 pela primeira vez, só o que notou foi como meus olhos eram bonitos.
 Aliás, a mamãe é linda. O papai é bonito também. A Via é bem bonita. Caso você esteja se
 perguntando.
+
+    </string>
+
+    <string name="os_donos_do_mundo_text">
+        Nesta obra pioneira sobre o Clube Bilderberg, fruto de exaustivas investigações e análises, Cristina Jiménez traz à tona os dados sobre a organização que, por meio do controle da mídia, do dinheiro e da influência política, coordena os rumos do mundo. Tornou-se rapidamente um bestseller no seu lançamento em 2005, e foi publicada na Espanha, Romênia, Grécia, Colômbia, nos Estados Unidos, no México e em outros países. “O relativismo moral se traduz no vale-tudo. O ódio, a ira e a ganância se converteram no pão de cada dia. Nem todos percebem, mas a verdade é que estamos numa guerra pela defesa da nossa liberdade. O ser humano nasceu para ser livre e independente, porém o sistema foi criado pelos donos do mundo para que sejamos dependentes e escravos dele”.   Sobre a autora: Cristina Martín Jiménez nasceu na cidade de El Viso del Alcor, na província de Sevilha na Espanha, em 4 de maio de 1974. Estudou jornalismo na Universidade de Salamanca, cursando o último ano em Sevilha. É escritora e jornalista investigativa, e foi a primeira autora com alcance mundial a escrever e publicar uma obra sobre o Clube Bilderberg, entidade que reúne os verdadeiros governantes do mundo. Publicou mais outros livros sobre o mesmo assunto, nos quais investiga o modo como as instituições globais funcionam na realidade.
+
+    </string>
+    <string name="este_nao_e_mais_um_livro_de_dieta_text">
+        Emagreça de vez sem passar fome, comer menos, se exercitar ou pular de dieta em dieta! Quantas vezes você já sacrificou seu bem-estar e se frustrou depois de passar semanas comendo alimentos dos quais não gosta, passando fome, contando calorias, se exercitando ou fazendo dietas da moda, tudo para ver pouquíssimos resultados no espelho e na balança que sumiram rapidamente com o terrível efeito sanfona? Saiba que todo esse sacrifício não vale a pena! Rodrigo Polesso acredita que cuidar da saúde e conquistar a boa forma não precisam ser sinônimos de sofrimento e frustração. Por isso, nos presenteia com Este não é mais um livro de dieta. Em meio a tanto diz e não diz por aí, esse livro vem para colocar um basta em toda essa loucura alimentar à qual temos sido submetidos e guiar as pessoas para um novo estilo de vida que faz sentido e é baseado em alimentos nutritivos, saborosos e menos processados. Com um diálogo claro e embasamento científico, você descobrirá uma alimentação verdadeira, que não apenas desbloqueará a sua queima de gordura, mas também lhe dará níveis de energia e vitalidade que você nem acredita serem possíveis. Chega de sofrimento e de falsos resultados, com Rodrigo Polesso você será capaz de: • Quebrar os maiores mitos e os paradigmas das dietas • Descobrir o que e quando comer para obter resultados reais e duradouros • Erguer três grandes e importantes pilares para um novo estilo de vida alimentar flexível • Fazer as pazes e reconstruir sua relação com a comida, acabando com a ansiedade ESTE NÃO É MAIS UM LIVRO DE DIETA Rodrigo Polesso ‘’Meu objetivo é desconstruir os mitos e crenças que limitam muita gente, dando a você maior liberdade alimentar para que nunca mais precise seguir uma dieta ineficiente e possa, sim, construir um estilo de vida verdadeiramente saudável.’’ - Rodrigo Polesso Subtítulo: O novo e libertador estilo de vida alimentar para saúde e boa forma que derruba o conceito de dietas ISBN: 978-85-452-0286-8 Formato: 16 x 23 Páginas: 224 Preço de capa: R$ 34,90 Autor: Rodrigo Polesso Gênero: Não Ficção / Saúde / Estilo de Vida• Acelerar seu metabolismo e emagrecer naturalmente ganhando disposição e vitalidade no processo • Manter seus resultados sem nunca passar fome. • Rompa as amarras, ganhe liberdade alimentar, atinja sua melhor forma física ao alcançar a vida saudável e satisfatória que você merece e seja a melhor versão de si mesmo.
+    </string>
+
+    <string name="o_menestrel_text">
+        Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que beijos não são contratos e que presentes não são promessas. Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança. Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto demais para os planos, e o futuro tem o costume de cair em meio ao vão.
+
+
+Depois de um tempo você aprende que o sol queima se ficar exposto por muito tempo. E aprende que, não importa o quanto você se importe, algumas pessoas simplesmente não se importam… E aceita que não importa quão boa seja uma pessoa, ela vai feri-lo de vez em quando e você precisa perdoá-la por isso.
+
+
+Aprende que falar pode aliviar dores emocionais. Descobre que se leva anos para construir confiança e apenas segundos para destruí-la… E que você pode fazer coisas em um instante das quais se arrependerá pelo resto da vida. Aprende que verdadeiras amizades continuam a crescer mesmo a longas distâncias. E o que importa não é o que você tem na vida, mas quem você tem na vida. E que bons amigos são a família que nos permitiram escolher.
+
+
+Aprende que não temos de mudar de amigos se compreendemos que os amigos mudam… Percebe que seu melhor amigo e você podem fazer qualquer coisa, ou nada, e terem bons momentos juntos. Descobre que as pessoas com quem você mais se importa na vida são tomadas de você muito depressa… Por isso sempre devemos deixar as pessoas que amamos com palavras amorosas; pode ser a última vez que as vejamos.
+
+
+Aprende que as circunstâncias e os ambientes têm influência sobre nós, mas nós somos responsáveis por nós mesmos. Começa a aprender que não se deve comparar com os outros, mas com o melhor que pode ser. Descobre que se leva muito tempo para se tornar a pessoa que quer ser, e que o tempo é curto. Aprende que não importa onde já chegou, mas para onde está indo… Mas, se você não sabe para onde está indo, qualquer caminho serve.
+
+
+Aprende que, ou você controla seus atos, ou eles o controlarão… E que ser flexível não significa ser fraco, ou não ter personalidade, pois não importa quão delicada e frágil seja uma situação, sempre existem, pelo menos, dois lados. Aprende que heróis são pessoas que fizeram o que era necessário fazer, enfrentando as consequências. Aprende que paciência requer muita prática. Descobre que algumas vezes a pessoa que você espera que o chute quando você cai é uma das poucas que o ajudam a levantar-se.
+
+
+Aprende que maturidade tem mais a ver com os tipos de experiência que se teve e o que você aprendeu com elas do que com quantos aniversários você celebrou. Aprende que há mais dos seus pais em você do que você supunha. Aprende que nunca se deve dizer a uma criança que sonhos são bobagens… Poucas coisas são tão humilhantes e seria uma tragédia se ela acreditasse nisso. Aprende que quando está com raiva tem o direito de estar com raiva, mas isso não te dá o direito de ser cruel.
+
+
+Descobre que só porque alguém não o ama do jeito que você quer que ame não significa que esse alguém não o ama com tudo o que pode, pois existem pessoas que nos amam, mas simplesmente não sabem como demonstrar ou viver isso. Aprende que nem sempre é suficiente ser perdoado por alguém… Algumas vezes você tem de aprender a perdoar a si mesmo. Aprende que com a mesma severidade com que julga, você será em algum momento condenado. Aprende que não importa em quantos pedaços seu coração foi partido, o mundo não para para que você o conserte.
+
+
+Aprende que o tempo não é algo que possa voltar. Portanto, plante seu jardim e decore sua alma, em vez de esperar que alguém lhe traga flores. E você aprende que realmente pode suportar… Que realmente é forte, e que pode ir muito mais longe depois de pensar que não se pode mais. E que realmente a vida tem valor e que você tem valor diante da vida! Nossas dúvidas são traidoras e nos fazem perder o bem que poderíamos conquistar se não fosse o medo de tentar.
 
     </string>
 </resources>

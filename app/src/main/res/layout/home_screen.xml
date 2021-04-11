@@ -39,6 +39,7 @@
             android:layout_height="wrap_content">
 
             <ImageButton
+                android:id="@+id/teste1"
                 android:layout_width="199dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -49,15 +50,16 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/gatilhos_mentais_capa"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openGatilhosBook"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
         <com.example.helloteca.SquareButton
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
             <ImageButton
+                android:id="@+id/teste2"
                 android:layout_width="199dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -68,7 +70,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/barack_obama_capa"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openBarackBook"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
@@ -96,7 +98,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/este_nao_e_mais_um_livro_de_dieta_capa"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openEsteNaoEMaisUmLivroDeDieta"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
@@ -115,7 +117,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/o_menestrel"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openOMenestrel"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
@@ -143,7 +145,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/extraordinario_capa"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openExtraordinarioBook"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
@@ -162,7 +164,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/os_donos_do_mundo"
                 android:background="@color/background_color_blue"
-                android:onClick="openBook"
+                android:onClick="openOsDonosDoMundo"
                 ></ImageButton>
 
         </com.example.helloteca.SquareButton>
