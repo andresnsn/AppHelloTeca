@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +17,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_screen);
 
+
         Button button = findViewById(R.id.login_button);
+        Button button2 = findViewById(R.id.new_button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
                 EditText password = findViewById(R.id.editTextTextPassword);
                 String loginText = login.getText().toString();
                 String passwordText = password.getText().toString();
-                if(loginText.equals("admin@admin.com") && passwordText.equals("pass1234")){
+                if(loginText.equals(user) && passwordText.equals(password.getText().toString())){
                     Intent intent = new Intent(LoginActivity.this, HomeScreenActivity.class);
                     startActivity(intent);
                     finish();
@@ -38,6 +39,17 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-        
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, FormActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
+    public static String user = "";
+    public static String password = "";
 }

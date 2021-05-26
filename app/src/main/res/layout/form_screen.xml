@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color_blue"
-    tools:context=".LoginActivity">
+    tools:context=".FormActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -37,15 +37,44 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login_title"
+            android:text="Novo cadastro"
             android:textAlignment="center"
             android:textColor="@android:color/darker_gray"
             android:textStyle="bold"
             android:layout_marginBottom="15dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome ou apelido"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/formNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="15dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:background="@drawable/rounded_border_grey"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:hint="ex: Gil da Esfirra"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seu e-mail"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="5dp"/>
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/formEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
@@ -58,11 +87,18 @@
             android:inputType="textEmailAddress"
             android:textAlignment="center"
             android:textSize="16dp"
-            android:hint="E-mail"
+            android:hint="ex: sinka@sinka.com.br"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua senha"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="5dp"/>
+
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/formPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
@@ -75,28 +111,17 @@
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="16dp"
-            android:hint="Senha"
+            android:hint="********"
             />
 
         <Button
-            android:id="@+id/login_button"
+            android:id="@+id/save_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
             android:backgroundTint="@color/background_color_blue"
-            android:text="ENTRAR"
-            android:textColor="@color/white"
-            />
-
-        <Button
-            android:id="@+id/new_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
-            android:layout_marginRight="35dp"
-            android:backgroundTint="@color/background_color_blue"
-            android:text="Novo cadastro"
+            android:text="CADASTRAR"
             android:textColor="@color/white"
             />
 

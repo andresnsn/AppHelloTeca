@@ -26,6 +26,7 @@
         <activity android:name=".RSEsteNaoEMaisUmLivroDeDieta" android:exported="true"></activity>
         <activity android:name=".RSOMenestrel" android:exported="true"></activity>
         <activity android:name=".RSDonosDoMundo" android:exported="true"></activity>
+        <activity android:name=".FormActivity" android:exported="true"></activity>
     </application>
 
 </manifest>

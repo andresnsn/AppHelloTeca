@@ -15,12 +15,13 @@
         app:srcCompat="@drawable/helloteca_logo" />
 
     <TextView
+        android:id="@+id/presentation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium"
         android:textSize="20dp"
-        android:text="EM ALTA"
+        android:text="Olá André!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
